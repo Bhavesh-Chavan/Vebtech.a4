@@ -11,13 +11,155 @@
 .nav{
     height: 12vh;
     width: 100%;
+    position: relative;
+    background-color: rgb(252, 250, 250);
+}
+.logo{
+    height: 100px;
+    width: 200px;
+    margin-left: 50px;
+    background-image: url('https://i.pinimg.com/originals/b2/04/26/b20426a0454bbd87318a1a1098a87faf.png');
+    background-size: 100%;
+}
+
+.box1{
+    height: 88vh;
+    width: 100%;
+    /* background-color: aliceblue; */
+    background-image: url('https://cdn.anscommerce.com/tr:e-sharpen-01,h-798,w-1920,cm-pad_resize/catalog/brandstore/americantourister/615-2023_04_24-2400x997pix_Road_Trip_Web_Banners.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sdiv{
+    height: 100vh;
+    width: 100%;
     background-color: white;
 }
-.all{
-    height: 50px;
-    width: 150px;
-    margin-left: 700px;
-    margin-top: 20px;
-    font-size: 20px;
-    border-style: none;
+.shop{
+    font-family: arial;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 80px;
 }
+.tra,.off,.col,.adv{
+    height: 8vh;
+    width: 300px;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin-left: 300px;
+    font-size: 190%;
+    background-color: rgb(251, 249, 249);
+    color: black;
+    font-family: arial;
+}
+.off{
+    margin-left: 100px;
+}
+.col{
+    margin-left: 100px;
+}
+.adv{
+    margin-left: 100px;
+}
+.tra:hover,.off:hover,.col:hover,.avd:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+    background-color: black;
+    color: white;
+    font-family: arial;
+}
+.bag,.bag1,.bag2,.bag3{
+    height: 40vh;
+    width: 40vh;
+    margin-top: 60px;
+    margin-left: 90px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+.bag{
+    background-image: url('https://cdn.staticans.com/image/tr:e-sharpen-01,h-350,w-350,cm-pad_resize/data/AmericanTourister/23-June-2023/LD8001002_1.jpg');
+}
+.bag1{
+    background-image: url('https://cdn.staticans.com/image/tr:e-sharpen-01,h-350,w-350,cm-pad_resize/data/AmericanTourister/26-Feb-2023/LL7074001_1.jpg');
+}
+.bag2{
+    background-image: url('https://cdn.staticans.com/image/tr:e-sharpen-01,h-350,w-350,cm-pad_resize/data/AmericanTourister/11-July-2023/LV0005002_1.jpg');
+}
+.bag3{
+    background-image: url('https://cdn.staticans.com/image/tr:e-sharpen-01,h-350,w-350,cm-pad_resize/data/AmericanTourister/26-Feb-2023/LO1090001_1.jpg');
+}
+.bag:hover,.bag1:hover,.bag2:hover,.bag3:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+.name{
+    display: flex;
+    margin-left: 200px;
+    font-family: arial;
+    font-size: 25px;
+}
+.zi{
+    margin-left: 340px;
+}
+.smo{
+    margin-left: 320px;
+}
+.zo{
+    margin-left: 280px;
+}
+.add1,.add2,.add3,.add4{
+    height: 7vh;
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 125px;
+    border-radius: 35px;
+    font-size: arial;
+}
+.add2{
+    margin-left: 130px;
+}
+.add3{
+    margin-left: 150px;
+}
+.add4{
+    margin-left: 150px;
+}
+.add1:hover,.add2:hover,.add3:hover,.add4:hover{
+    transition: 0.5s;
+    /* transform: scale(0.9); */
+    background-color: black;
+    color: white;
+    font-family: arial;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
+.title{
+    top: 0px;
+    width: 100%;
+    height: 400px;
+    background-color: black;   
+}
+.nav2{
+    height: 50px;
+    width: 100%;
+    margin-left: 200px;
+    /* align-items:center ; */
+    background-color:rgb(38, 37, 37);
+    position: relative;
+    margin-left: -15px;    
+}
+.back{
+    margin-left: 900px;
+    font-size: 25px;
+    color: white;
+}
+.f1,.f2,.f3,.f4{
+    font-size: 25px;
+    
+}
+.ldiv{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(73, 77, 77);
+}
+

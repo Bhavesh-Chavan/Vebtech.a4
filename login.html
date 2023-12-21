@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+    <div class="mdiv">
+
+
+        <!-- <div id="nav">
+            <ul type="none">
+                <li>Home</li>
+                <li>Luggage</li>
+                <li>Backpack</li>
+                <li>Duffles</li>
+                <li>Office Bag</li>
+                <input type="button" class="loc">
+                <input type="button" value="" class="profile" onclick="login()">
+                <input type="button" class="search">
+                <input type="button" class="add0">
+                <div class="icon"></div>
+            
+            </ul>
+            <div class="logo"></div> -->
+
+
+
+
+        <div class="sign-in">
+            <h1 class="sign">Sign In</h1><br>
+            <p>Existing customer</p>
+            <BR></BR>
+            <form action="" class="form">
+                <input type="text" name="name" id="un" placeholder="E-mail Address " style="text-indent: 20px;" class="inp">
+                <BR></BR>
+                <input type="password" name="password" id="pass" placeholder="password " style="text-indent: 20px;" class="inp">
+                <BR></BR><br>
+
+                <input type="submit" value="Log In" class="sbtn" onclick="homePage()">
+                <a href="#" style="margin-left: 239px;">Forgot Your password?</a>
+
+            </form>
+        </div>
+        <div class="sign-up">
+            <h1 class="heading">New Customer?</h1>
+            <BR></BR>
+            <input type="submit" value="Sign up" class="sbtn1" onclick="createAcc()">
+        </div>
+    </div>
+    <script>
+        let un1 = "admin@gmail.com";
+        let ps1 = "admin";
+
+        function homePage() {
+
+            let un2 = document.getElementById("un").value;
+            let ps2 = document.getElementById("pass").value;
+
+            if ((un1 == un2) && (ps1 == ps2)) {
+                open("homePage.html");
+            }
+            else {
+                alert("Incorrect Credentials")
+            }
+        }
+
+        function createAcc(){
+            open("createAcc.html")
+        }
+    </script>
+</body>
+
+</html>

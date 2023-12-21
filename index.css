@@ -8,30 +8,78 @@
     width: 100%;
     background-color: black;
 }
-.nav{
+#nav{
     height: 12vh;
     width: 100%;
     position: relative;
     background-color: rgb(252, 250, 250);
 }
-.logo{
-    height: 100px;
-    width: 200px;
+#nav ul{
+    display: flex; 
+    margin-left: 500px;
+     
+}
+
+#nav ul li{
+    margin-top: 40px;
+    font-family: arial black;
+    font-size: x-large;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.loc{
+    height: 40px;
+    width: 40px;
+    background-size: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-image: url('https://toppng.com/uploads/preview/location-png-icon-location-icon-png-free-11562933803vththezlcl.png');
+}
+.profile,.search,.add0{
+    height: 40px;
+    width: 40px;
+    background-size: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 30px;
     margin-left: 50px;
-    background-image: url('https://i.pinimg.com/originals/b2/04/26/b20426a0454bbd87318a1a1098a87faf.png');
+    
+}
+.profile{
+    background-image: url('https://cdn-icons-png.flaticon.com/128/1077/1077063.png');
+}
+.search{
+    background-image: url('https://www.freepnglogos.com/uploads/search-png/search-file-ios-svg-wikimedia-commons-18.png');
+}
+.add0{
+    background-image: url('https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png');
+    background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: -90px;
+    height: 100px;
+    width: 130px;
+    margin-left: 50px;
+    background-image: url('https://storage2.snappages.site/62CFV6/assets/images/5829099_3172x3173_500.png');
     background-size: 100%;
 }
 
-.box1{
+.box1,.mySlides{
     height: 88vh;
     width: 100%;
+    margin-top: -10px;
     /* background-color: aliceblue; */
     background-image: url('https://cdn.anscommerce.com/tr:e-sharpen-01,h-798,w-1920,cm-pad_resize/catalog/brandstore/americantourister/615-2023_04_24-2400x997pix_Road_Trip_Web_Banners.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .sdiv{
-    height: 100vh;
+    height: 300vh;
     width: 100%;
     background-color: white;
 }
@@ -46,20 +94,20 @@
     width: 300px;
     border-radius: 35px;
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 180px;
     font-size: 190%;
     background-color: rgb(251, 249, 249);
     color: black;
     font-family: arial;
 }
 .off{
-    margin-left: 100px;
+    margin-left: 120px;
 }
 .col{
-    margin-left: 100px;
+    margin-left: 120px;
 }
 .adv{
-    margin-left: 100px;
+    margin-left: 120px;
 }
 .tra:hover,.off:hover,.col:hover,.avd:hover{
     transition: 0.5s;
@@ -68,11 +116,12 @@
     color: white;
     font-family: arial;
 }
+/* -------------------------------bags line 1------------------------------------------------------------------------------ */
 .bag,.bag1,.bag2,.bag3{
     height: 40vh;
     width: 40vh;
     margin-top: 60px;
-    margin-left: 90px;
+    margin-left: 105px;
     background-size: 100%;
     background-repeat: no-repeat;
     border: none;
@@ -85,9 +134,11 @@
 }
 .bag2{
     background-image: url('https://cdn.staticans.com/image/tr:e-sharpen-01,h-350,w-350,cm-pad_resize/data/AmericanTourister/11-July-2023/LV0005002_1.jpg');
+    margin-left: 120px;
 }
 .bag3{
     background-image: url('https://cdn.staticans.com/image/tr:e-sharpen-01,h-350,w-350,cm-pad_resize/data/AmericanTourister/26-Feb-2023/LO1090001_1.jpg');
+    margin-left: 125px;
 }
 .bag:hover,.bag1:hover,.bag2:hover,.bag3:hover{
     transition: 0.5s;
@@ -106,12 +157,25 @@
     margin-left: 320px;
 }
 .zo{
-    margin-left: 280px;
+    margin-left: 300px;
 }
+.price{
+    margin-left: -360px;
+    margin-top: 20px;
+    font-size: large;
+    display: flex;
+    margin-left: -170px;
+    font-family: arial;
+    font-size: x-large;
+}
+.price li{
+    margin-left: 390px;
+}
+
 .add1,.add2,.add3,.add4{
     height: 7vh;
     width: 300px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 125px;
     border-radius: 35px;
     font-size: arial;
@@ -132,19 +196,108 @@
     color: white;
     font-family: arial;
 }
-/* ------------------------------------------------------------------------------------------------------------- */
+/* -----------------------------------bags line 2--------------------------------------------------------------- */
+.bag5,.bag6,.bag7,.bag8{
+    height: 40vh;
+    width: 40vh;
+    margin-top: 60px;
+    margin-left: 105px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+.bag5{
+    background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/91FK74bRReL._SX679_.jpg');
+}
+.bag6{
+    background-image: url('https://shopmygear.com/wp-content/uploads/2022/08/Gear-Alphamount.webp');
+}
+.bag7{
+    background-image: url('https://shopmygear.com/wp-content/uploads/2022/07/Front-11-600x600.jpg');
+    margin-left: 120px;
+}
+.bag8{
+    background-image: url('https://shopmygear.com/wp-content/uploads/2023/12/AMAZON-3-a-150x150-1-2048x2048.jpg');
+    margin-left: 125px;
+}
+.bag5:hover,.bag6:hover,.bag7:hover,.bag8:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+
+/* -------------------------------------bags line 3------------------------------------------------------------- */
+.bag9,.bag10,.bag11,.bag12{
+    height: 40vh;
+    width: 40vh;
+    margin-top: 60px;
+    margin-left: 105px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+.bag9{
+    background-image: url('https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/h_373,q_80,w_280/v1/assets/images/16854108/2022/1/18/c551a5d2-43ba-4d6a-822e-72bed857ffb51642496569790PoloClass24-inchTrolleyBag1.jpg');
+}
+.bag10{
+    background-image: url('https://i.ebayimg.com/images/g/ivgAAOSwEKBj159i/s-l1200.webp');
+}
+.bag11{    background-image: url('https://cdn.moglix.com/p/mZRkxJmn33w6g-xlarge.jpg');
+    margin-left: 120px;
+}
+.bag12{
+    background-image: url('https://5.imimg.com/data5/QD/ZV/PO/SELLER-62374679/polycarbonate-skybag-mirage-80-suitcases-500x500.jpg');
+    margin-left: 125px;
+}
+.bag9:hover,.bag10:hover,.bag11:hover,.bag12:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+/* ----------------------------------------bag line 4------------------------------------------------------------ */
+.bag13,.bag14,.bag15,.bag16{
+    height: 40vh;
+    width: 40vh;
+    margin-top: 60px;
+    margin-left: 105px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+}
+.bag13{
+    background-image: url('https://aircase.in/cdn/shop/products/1_e82eb2a7-de37-4e3e-b35a-92c2c1f19816_1200x1200_crop_center.jpg?v=1670227083');
+}
+.bag14{
+    background-image: url('https://m.media-amazon.com/images/I/61Tl+8lvibL._AC_SY575_.jpg');
+}
+.bag15{    background-image: url('https://www.jiomart.com/images/product/original/rvdokyuste/lafille-brown-black-handbag-for-women-girls-ladies-purse-handbags-for-office-college-product-images-rvdokyuste-3-202212261048.jpg?im=Resize=(500,630)');
+    margin-left: 120px;
+}
+.bag16{
+    background-image: url('https://images-static.nykaa.com/media/catalog/product/f/a/fabb2b7i47_brown__1_.jpg?tr=w-500,pr-true');
+    margin-left: 125px;
+}
+.bag13:hover,.bag14:hover,.bag15:hover,.bag16:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+/* ----------------------------------------------footer----------------------------------------------------------------- */
 .title{
     top: 0px;
     width: 100%;
     height: 400px;
-    background-color: black;   
+    /* z-index: 20; */
+    background-color: rgb(243, 242, 242);    
+}
+.flogo{
+    font-size: 60px;
+    color: rgb(74, 74, 142);
+    font-family: 'Brush Script MT', cursive;
 }
 .nav2{
     height: 50px;
-    width: 100%;
+    width: 100.8%;
     margin-left: 200px;
     /* align-items:center ; */
-    background-color:rgb(38, 37, 37);
+    background-color: gray;
     position: relative;
     margin-left: -15px;    
 }
@@ -155,11 +308,150 @@
 }
 .f1,.f2,.f3,.f4{
     font-size: 25px;
+    margin-left: 100px;
+    
+    /* margin-top: 40px; */
     
 }
+.f1 ol li{
+    margin-top: 50px;
+    line-height: 20px;
+}
+.follow{
+    margin-left: 160px;
+    /* margin-bottom: 230px; */
+}
+.llogo1,.llogo2{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 200px;
+    background-color: transparent;
+    /* background-color: black; */
+}
+.llogo1{
+    margin-left: 170px;
+    margin-top: 20px;
+    background-image: url('https://png.pngtree.com/png-vector/20230225/ourmid/pngtree-facebook-icon-social-media-png-image_6618433.png');
+    background-size: 100%;
+    border: none ;
+    background-repeat: no-repeat;
+}
+.llogo2{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 195px;
+    background-image: url('https://image.similarpng.com/very-thumbnail/2020/05/Popular-Logo-Instagram-icon-PNG.png');
+    background-size: 100%;
+    border: none;
+    margin-left: 20px;
+}
 .ldiv{
-    height: 150px;
+    height: 100px;
     width: 100%;
-    background-color: rgb(73, 77, 77);
+    background-color: rgb(243, 242, 242);
+}
+.last{
+    margin-left: 650px;
+    margin-top: 30px;
+    color: rgb(151, 149, 149);
 }
 
+
+/* ------------------------------xyz--------------------------------------------------------------------------- */
+.foot{
+    margin-top: 100px   ;
+    height: 500px;
+    width: 94%;
+    background-image: linear-gradient(to right, rgb(235, 34, 68), rgb(228, 54, 83), rgb(231, 140, 21), rgba(243, 142, 26, 0.897));
+    margin-left: 3%;
+    z-index: -7;
+    transform: skewY(5deg);
+    position: relative;
+}
+
+.log101{
+    margin-top: 50px;
+    margin-left: 170px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    color: white;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/4118/4118757.png');
+    background-position: center;
+    background-size: 100%;
+    background-color: transparent;
+    
+
+}
+
+.log201{
+    margin-top: -430px;
+    margin-left: 640px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/11482/11482445.png');
+    background-position: center;
+    background-size: 100%;
+    background-color: transparent;
+}
+
+.log301{
+    margin-top: -390px;
+    margin-left: 1140px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/9359/9359486.png');
+    background-position: center;
+    background-size: 100%;
+    background-color: transparent;
+}
+
+.log401{
+    margin-top: -330px;
+    margin-left: 1550px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    background-image: url('https://cdn-icons-png.flaticon.com/128/11900/11900195.png');
+    background-position: center;
+    background-size: 100%;
+    background-color: transparent;
+}
+
+
+.cont101,.cont201,.cont301,.cont401{
+    margin-top: -350px;
+    position: absolute;
+    margin-left: 100px;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    width: 350px;
+    text-align: justify;
+    line-height: 30px;
+   
+}
+
+.cont201{
+    margin-top: -300px;
+    margin-left: 550px;  
+}
+
+.cont301{
+    margin-top: -240px;
+    margin-left: 1020px;  
+}
+
+.cont401{
+    margin-top: -180px;
+    margin-left: 1450px;
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    width: 350px;
+    text-align: justify;
+    line-height: 30px;
+   
+}

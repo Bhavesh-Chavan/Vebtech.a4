@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <div id="nav">
+        <ul type="none">
+            <a href="index.html"> <li>Home</li></a>
+            <a href="travel.html"><li>Luggage</li></a>
+            <a href="backpack.html"><li>Backpack</li></a>
+            <a href="Handback.html"><li>Hand bag</li></a>
+            <li>Office Bag</li>
+            <input type="button" class="loc">
+            <input type="button" value="" class="profile" onclick="login()">
+            <input type="button" class="search">
+            <input type="button" class="add0">
+            <div class="icon"></div>
+        
+        </ul>
+        <div class="logo"></div>
+    </div>
     <table cellspacing="40px">
     <tr>
         <td>
@@ -129,5 +146,10 @@
     </tr>
     
 </table>
+<script>
+    function login(){
+        open("login.html")
+    }
+</script>
 </body>
 </html>

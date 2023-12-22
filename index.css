@@ -6,7 +6,7 @@
 .mdiv{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 #nav{
     height: 12vh;
@@ -19,6 +19,9 @@
     margin-left: 500px;
      
 }
+:link{
+    text-decoration: none;
+}
 
 #nav ul li{
     margin-top: 40px;
@@ -26,6 +29,15 @@
     font-size: x-large;
     margin-left: 80px;
     margin-top: 30px;
+}
+a{
+    color: black;
+}
+#nav ul li:hover{
+    transition-duration: .5s;
+    color: blue;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .loc{
     height: 40px;
@@ -67,6 +79,7 @@
     margin-left: 50px;
     background-image: url('https://storage2.snappages.site/62CFV6/assets/images/5829099_3172x3173_500.png');
     background-size: 100%;
+    z-index: -2;
 }
 
 .box1,.mySlides{
@@ -88,6 +101,13 @@
     font-size: 50px;
     margin-left: 100px;
     margin-top: 80px;
+}
+.btn001{
+    margin-left: 105px;
+    height: 15px;
+    width: 344px;
+    background-image: linear-gradient(to right, rgb(235, 34, 68), rgb(228, 54, 83), rgb(231, 140, 21), rgba(243, 142, 26, 0.897));
+    border-radius: 7.5px;
 }
 .tra,.off,.col,.adv{
     height: 8vh;
@@ -160,16 +180,16 @@
     margin-left: 300px;
 }
 .price{
-    margin-left: -360px;
+    margin-left: 200px;
     margin-top: 20px;
     font-size: large;
     display: flex;
-    margin-left: -170px;
+    /* margin-left: 170px; */
     font-family: arial;
     font-size: x-large;
 }
 .price li{
-    margin-left: 390px;
+    margin-left: 330px;
 }
 
 .add1,.add2,.add3,.add4{
